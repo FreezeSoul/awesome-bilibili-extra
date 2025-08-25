@@ -294,18 +294,19 @@
 - name: BiliCache2MP4
   link: kaixinol/BiliCache2MP4
   from: github
-  description: 哔哩哔哩Biliili视频缓存的*.m4s文件批量转换为.mp4文件工具
+  description: 哔哩哔哩BiliBili视频缓存文件批量转换为mp4文件工具。支持弹幕转换/每视频组一个文件夹/旧BLV视频。支持跨平台。
   icon:
     - py
     - cli
+    - exe
 - name: bilibili_music
   link: rat857/bilibili_music
   from: github
   description: bilibili的视频的音频下载及播放，TUI
   icon:
     - go
-- name: Bilibili_Downloader_Cli
-  link: open17/Bilibili-Downloader-Cli
+- name: Bilibili Downloader
+  link: open17/Bilibili-Downloader-py
   from: github
   description: 一个轻量的b站下载器,支持下载B站视频,番剧,电影,电视剧等
   icon:
@@ -497,3 +498,10 @@
   icon:
     - rust
     - exe
+- name: Bilibili 视频下载工具
+  link: mcl0z/bili_video_downloader
+  from: github
+  description: 这是一个Bilibili视频下载工具，可以从B站下载视频并自动将音视频流合并为MP4格式。
+  icon:
+    - py
+    - cli
